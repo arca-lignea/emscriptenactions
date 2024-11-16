@@ -46,7 +46,7 @@ You may need to enable GitHub Pages for your repo / fork by navigating to `Setti
 
 Uses setup-emsdk: https://github.com/mymindstorm/setup-emsdk
 
-*This pipeline caches a specified version of emsdk, and this may not be desired a behavior or emsdk version for your project, so please refer to the setup-emsdk README for other setup options.*
+*This pipeline caches a specified version of emsdk, and this may not be a desired behavior or emsdk version for your project, so please refer to the setup-emsdk README for other setup options.*
 
 On push to master branch, the mail.yml workflow builds main.cpp and deploys the output `index.*` files to GitHub Pages, which by default uses the URL format `https://{username}.github.io/{repository}/`
 
